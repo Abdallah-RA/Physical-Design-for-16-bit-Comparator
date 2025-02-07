@@ -1,0 +1,56 @@
+*** SPICE deck for cell FF{sch} from library FlipFlop
+*** Created on Thu Aug 22, 2024 12:53:40
+*** Last revised on Thu Aug 22, 2024 13:07:50
+*** Written on Thu Aug 22, 2024 13:07:53 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT DownLatch-__DownLatch FROM CELL DownLatch-:DownLatch{sch}
+.SUBCKT DownLatch-__DownLatch CLk D Out
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 D net@5 net@0 gnd NMOS L=0.6U W=3U
+Mnmos@1 net@0 CLk Out gnd NMOS L=0.6U W=3U
+Mnmos@2 net@5 CLk gnd gnd NMOS L=0.6U W=3U
+Mnmos@3 net@35 net@0 gnd gnd NMOS L=0.6U W=3U
+Mnmos@4 Out net@35 gnd gnd NMOS L=0.6U W=3U
+Mpmos@0 net@0 CLk D vdd PMOS L=0.6U W=9U
+Mpmos@1 Out net@5 net@0 vdd PMOS L=0.6U W=9U
+Mpmos@2 vdd CLk net@5 vdd PMOS L=0.6U W=9U
+Mpmos@3 vdd net@0 net@35 vdd PMOS L=0.6U W=9U
+Mpmos@4 vdd net@35 Out vdd PMOS L=0.6U W=9U
+.ENDS DownLatch-__DownLatch
+
+*** SUBCIRCUIT Latch__Latch FROM CELL Latch:Latch{sch}
+.SUBCKT Latch__Latch CLK D OUT
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@6 D CLK net@127 gnd NMOS L=0.6U W=3U
+Mnmos@7 net@127 net@128 OUT gnd NMOS L=0.6U W=3U
+Mnmos@8 net@128 CLK gnd gnd NMOS L=0.6U W=3U
+Mnmos@9 net@145 net@127 gnd gnd NMOS L=0.6U W=3U
+Mnmos@10 OUT net@145 gnd gnd NMOS L=0.6U W=3U
+Mpmos@6 net@127 net@128 D vdd PMOS L=0.6U W=9U
+Mpmos@7 OUT CLK net@127 vdd PMOS L=0.6U W=9U
+Mpmos@8 vdd CLK net@128 vdd PMOS L=0.6U W=9U
+Mpmos@9 vdd net@127 net@145 vdd PMOS L=0.6U W=9U
+Mpmos@10 vdd net@145 OUT vdd PMOS L=0.6U W=9U
+.ENDS Latch__Latch
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: FF{sch}
+XDownLatc@0 CLK D net@0 DownLatch-__DownLatch
+XLatch@0 CLK net@0 OUT Latch__Latch
+
+* Spice Code nodes in cell cell 'FF{sch}'
+Vdd vdd 0 DC 0.7
+VD D 0 PWL(0ns 0 10ns 0.7 20ns 0.7 50ns 0.7 60ns 0 70ns 0 80n 0.7 90ns 0.7 100ns 0)
+Vclk clk 0 PWL(0ns 0 10ns 0 20ns 0.7 30ns 0.7 40ns 0 50ns 0 60ns 0.7 70ns 0.7 80ns 0 90ns 0 100ns 0.7 110ns 0 120ns 0 130ns 0.7 140ns 0.7 )
+Cload out 0 25fF
+.measure tran tf TRIG v(out) VAL=0.35 FALL=0.1 TD=8ns TARG v(out) VAL=0.1 FALL=0.1
+.measure tran tr TRIG v(out) VAL=0.1 RISE=0.1 TD=8ns TARG v(out) VAL=0.35 RISE=0.1
+.tran 0.1ns 0.15us
+.include C:\Electric\C5_models.txt
+.end
+.END

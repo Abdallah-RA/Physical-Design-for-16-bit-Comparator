@@ -1,0 +1,30 @@
+*** SPICE deck for cell Latch{lay} from library Latch
+*** Created on Tue Aug 20, 2024 21:08:07
+*** Last revised on Thu Aug 22, 2024 09:00:34
+*** Written on Thu Aug 22, 2024 14:01:09 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** TOP LEVEL CELL: Latch:Latch{lay}
+Mnmos@6 gnd CLK net@325 gnd NMOS L=0.032U W=0.16U AS=0.036P AD=0.103P PS=0.864U PD=1.717U
+Mnmos@7 gnd net@304 net@332 gnd NMOS L=0.032U W=0.16U AS=0.036P AD=0.103P PS=0.864U PD=1.717U
+Mnmos@8 gnd net@332 OUT gnd NMOS L=0.032U W=0.16U AS=0.035P AD=0.103P PS=0.856U PD=1.717U
+Mnmos@9 net@304 CLK D gnd NMOS L=0.032U W=0.16U AS=0.035P AD=0.035P PS=0.848U PD=0.848U
+Mnmos@10 net@304 net@325 OUT gnd NMOS L=0.032U W=0.16U AS=0.035P AD=0.035P PS=0.856U PD=0.848U
+Mpmos@6 vdd CLK net@325 vdd PMOS L=0.032U W=0.48U AS=0.036P AD=0.139P PS=0.864U PD=2.357U
+Mpmos@7 vdd net@304 net@332 vdd PMOS L=0.032U W=0.48U AS=0.036P AD=0.139P PS=0.864U PD=2.357U
+Mpmos@8 vdd net@332 OUT vdd PMOS L=0.032U W=0.48U AS=0.035P AD=0.139P PS=0.856U PD=2.357U
+Mpmos@9 D net@325 net@304 vdd PMOS L=0.032U W=0.48U AS=0.035P AD=0.035P PS=0.848U PD=0.848U
+Mpmos@10 OUT CLK net@304 vdd PMOS L=0.032U W=0.48U AS=0.035P AD=0.035P PS=0.848U PD=0.856U
+
+* Spice Code nodes in cell cell 'Latch:Latch{lay}'
+Vdd vdd 0 DC 0.7
+VD D 0 PWL(0ns 0 10ns 0.7 20ns 0.7 50ns 0.7 60ns 0 70ns 0)
+Vclk clk 0 PWL(0ns 0 10ns 0 20ns 0.7 30ns 0.7 40ns 0 50ns 0 60ns 0 70ns 0.7 )
+Cload out 0 25fF
+.measure tran tf TRIG v(out) VAL=0.35 FALL=0.1 TD=8ns TARG v(out) VAL=0.1 FALL=0.1
+.measure tran tr TRIG v(out) VAL=0.1 RISE=0.1 TD=8ns TARG v(out) VAL=0.35 RISE=0.1
+.tran 0.1ns 0.1us
+.include C:\Electric\C5_models.txt
+.end
+.END

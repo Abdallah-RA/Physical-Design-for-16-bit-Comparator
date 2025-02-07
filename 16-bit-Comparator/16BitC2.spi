@@ -1,0 +1,543 @@
+*** SPICE deck for cell 16BitC2{lay} from library 16BitC
+*** Created on Thu Aug 22, 2024 13:49:19
+*** Last revised on Thu Aug 22, 2024 13:50:03
+*** Written on Thu Aug 22, 2024 13:50:08 by Electric VLSI Design System, version 9.07
+*** Layout tech: bicmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 10.0, MIN_CAPAC 0.0FF
+*** WARNING: no power connection for P-transistor wells in cell '16BitC2{lay}'
+*** WARNING: no ground connection for N-transistor wells in cell '16BitC2{lay}'
+
+*** TOP LEVEL CELL: 16BitC2{lay}
+Mnmos@0 net@391 net@14 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@1 net@1 net@12 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@2 net@1613 net@12 net@11 gnd NMOS L=0.032U W=0.32U
+Mnmos@3 net@11 net@14 net@1613 gnd NMOS L=0.032U W=0.32U
+Mnmos@4 net@1613 net@1 net@751 gnd NMOS L=0.032U W=0.32U
+Mnmos@5 net@751 net@391 net@1613 gnd NMOS L=0.032U W=0.32U
+Mnmos@6 net@2420 net@12 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@7 net@11 net@391 net@2420 gnd NMOS L=0.032U W=0.16U
+Mnmos@8 net@98 net@1001 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@9 net@38 net@0 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@10 net@5112 net@0 net@11 gnd NMOS L=0.032U W=0.32U
+Mnmos@11 net@11 net@1001 net@5112 gnd NMOS L=0.032U W=0.32U
+Mnmos@12 net@5112 net@38 net@191 gnd NMOS L=0.032U W=0.32U
+Mnmos@13 net@191 net@98 net@5112 gnd NMOS L=0.032U W=0.32U
+Mnmos@14 net@2223 net@0 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@15 net@11 net@98 net@2223 gnd NMOS L=0.032U W=0.16U
+Mnmos@16 net@320 net@383 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@17 net@246 net@481 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@18 net@1190 net@481 net@11 gnd NMOS L=0.032U W=0.32U
+Mnmos@19 net@11 net@383 net@1190 gnd NMOS L=0.032U W=0.32U
+Mnmos@20 net@1190 net@246 net@542 gnd NMOS L=0.032U W=0.32U
+Mnmos@21 net@542 net@320 net@1190 gnd NMOS L=0.032U W=0.32U
+Mnmos@22 net@703 net@481 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@23 net@11 net@320 net@703 gnd NMOS L=0.032U W=0.16U
+Mnmos@24 net@2495 net@2542 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@25 net@2433 net@2601 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@26 net@3218 net@2601 net@11 gnd NMOS L=0.032U W=0.32U
+Mnmos@27 net@11 net@2542 net@3218 gnd NMOS L=0.032U W=0.32U
+Mnmos@28 net@3218 net@2433 net@1113 gnd NMOS L=0.032U W=0.32U
+Mnmos@29 net@1113 net@2495 net@3218 gnd NMOS L=0.032U W=0.32U
+Mnmos@30 net@3 net@2601 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@31 net@11 net@2495 net@3 gnd NMOS L=0.032U W=0.16U
+Mnmos@32 net@4463 net@1113 net@4386 gnd NMOS L=0.032U W=0.64U
+Mnmos@33 net@4526 net@191 net@4463 gnd NMOS L=0.032U W=0.64U
+Mnmos@34 net@4615 net@751 net@4526 gnd NMOS L=0.032U W=0.64U
+Mnmos@35 net@11 net@542 net@4615 gnd NMOS L=0.032U W=0.64U
+Mnmos@36 net@2273 net@4386 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@37 net@4734 net@2420 net@4726 gnd NMOS L=0.032U W=0.64U
+Mnmos@38 net@4740 net@191 net@4734 gnd NMOS L=0.032U W=0.64U
+Mnmos@39 net@4752 net@542 net@4740 gnd NMOS L=0.032U W=0.64U
+Mnmos@40 net@11 net@1113 net@4752 gnd NMOS L=0.032U W=0.64U
+Mnmos@41 net@180 net@4726 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@42 net@4881 net@2446 net@4863 gnd NMOS L=0.032U W=0.32U
+Mnmos@43 net@11 net@1113 net@4881 gnd NMOS L=0.032U W=0.32U
+Mnmos@44 net@91 net@4863 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@45 net@4976 net@542 net@4445 gnd NMOS L=0.032U W=0.48U
+Mnmos@46 net@2 net@1113 net@4976 gnd NMOS L=0.032U W=0.48U
+Mnmos@47 net@11 net@2223 net@2 gnd NMOS L=0.032U W=0.48U
+Mnmos@48 net@236 net@4445 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@49 net@36 net@3 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@50 net@280 net@91 net@36 gnd NMOS L=0.032U W=0.16U
+Mnmos@51 net@36 net@236 net@280 gnd NMOS L=0.032U W=0.16U
+Mnmos@52 net@11 net@180 net@36 gnd NMOS L=0.032U W=0.16U
+Mnmos@53 net@313 net@36 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@54 net@212 net@543 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@55 net@623 net@131 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@56 net@639 net@131 net@11 gnd NMOS L=0.032U W=0.32U
+Mnmos@57 net@11 net@543 net@639 gnd NMOS L=0.032U W=0.32U
+Mnmos@58 net@639 net@623 net@344 gnd NMOS L=0.032U W=0.32U
+Mnmos@59 net@344 net@212 net@639 gnd NMOS L=0.032U W=0.32U
+Mnmos@60 net@90 net@131 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@61 net@11 net@212 net@90 gnd NMOS L=0.032U W=0.16U
+Mnmos@62 net@5021 net@8 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@63 net@747 net@2935 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@64 net@3746 net@2935 net@11 gnd NMOS L=0.032U W=0.32U
+Mnmos@65 net@11 net@8 net@3746 gnd NMOS L=0.032U W=0.32U
+Mnmos@66 net@3746 net@747 net@338 gnd NMOS L=0.032U W=0.32U
+Mnmos@67 net@338 net@5021 net@3746 gnd NMOS L=0.032U W=0.32U
+Mnmos@68 net@726 net@2935 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@69 net@11 net@5021 net@726 gnd NMOS L=0.032U W=0.16U
+Mnmos@70 net@19 net@28 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@71 net@6 net@4 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@72 net@5424 net@4 net@11 gnd NMOS L=0.032U W=0.32U
+Mnmos@73 net@11 net@28 net@5424 gnd NMOS L=0.032U W=0.32U
+Mnmos@74 net@5424 net@6 net@7 gnd NMOS L=0.032U W=0.32U
+Mnmos@75 net@7 net@19 net@5424 gnd NMOS L=0.032U W=0.32U
+Mnmos@76 net@698 net@4 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@77 net@11 net@19 net@698 gnd NMOS L=0.032U W=0.16U
+Mnmos@78 net@100 net@107 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@79 net@93 net@119 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@80 net@196 net@119 net@11 gnd NMOS L=0.032U W=0.32U
+Mnmos@81 net@11 net@107 net@196 gnd NMOS L=0.032U W=0.32U
+Mnmos@82 net@196 net@93 net@126 gnd NMOS L=0.032U W=0.32U
+Mnmos@83 net@126 net@100 net@196 gnd NMOS L=0.032U W=0.32U
+Mnmos@84 net@143 net@119 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@85 net@11 net@100 net@143 gnd NMOS L=0.032U W=0.16U
+Mnmos@86 net@339 net@126 net@325 gnd NMOS L=0.032U W=0.64U
+Mnmos@87 net@350 net@338 net@339 gnd NMOS L=0.032U W=0.64U
+Mnmos@88 net@363 net@344 net@350 gnd NMOS L=0.032U W=0.64U
+Mnmos@89 net@11 net@7 net@363 gnd NMOS L=0.032U W=0.64U
+Mnmos@90 net@327 net@325 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@91 net@490 net@90 net@482 gnd NMOS L=0.032U W=0.64U
+Mnmos@92 net@497 net@338 net@490 gnd NMOS L=0.032U W=0.64U
+Mnmos@93 net@511 net@7 net@497 gnd NMOS L=0.032U W=0.64U
+Mnmos@94 net@11 net@126 net@511 gnd NMOS L=0.032U W=0.64U
+Mnmos@95 net@528 net@482 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@96 net@654 net@648 net@634 gnd NMOS L=0.032U W=0.32U
+Mnmos@97 net@11 net@126 net@654 gnd NMOS L=0.032U W=0.32U
+Mnmos@98 net@656 net@634 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@99 net@760 net@7 net@705 gnd NMOS L=0.032U W=0.48U
+Mnmos@100 net@3057 net@126 net@760 gnd NMOS L=0.032U W=0.48U
+Mnmos@101 net@11 net@726 net@3057 gnd NMOS L=0.032U W=0.48U
+Mnmos@102 net@734 net@705 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@103 net@3968 net@143 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@104 net@4469 net@656 net@3968 gnd NMOS L=0.032U W=0.16U
+Mnmos@105 net@3968 net@734 net@4469 gnd NMOS L=0.032U W=0.16U
+Mnmos@106 net@11 net@528 net@3968 gnd NMOS L=0.032U W=0.16U
+Mnmos@107 net@2543 net@3968 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@108 net@865 net@771 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@109 net@770 net@947 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@110 net@812 net@947 net@11 gnd NMOS L=0.032U W=0.32U
+Mnmos@111 net@11 net@771 net@812 gnd NMOS L=0.032U W=0.32U
+Mnmos@112 net@812 net@770 net@839 gnd NMOS L=0.032U W=0.32U
+Mnmos@113 net@839 net@865 net@812 gnd NMOS L=0.032U W=0.32U
+Mnmos@114 net@1563 net@947 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@115 net@11 net@865 net@1563 gnd NMOS L=0.032U W=0.16U
+Mnmos@116 net@1015 net@793 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@117 net@897 net@769 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@118 net@851 net@769 net@11 gnd NMOS L=0.032U W=0.32U
+Mnmos@119 net@11 net@793 net@851 gnd NMOS L=0.032U W=0.32U
+Mnmos@120 net@851 net@897 net@914 gnd NMOS L=0.032U W=0.32U
+Mnmos@121 net@914 net@1015 net@851 gnd NMOS L=0.032U W=0.32U
+Mnmos@122 net@772 net@769 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@123 net@11 net@1015 net@772 gnd NMOS L=0.032U W=0.16U
+Mnmos@124 net@1323 net@1331 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@125 net@1316 net@1342 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@126 net@1420 net@1342 net@11 gnd NMOS L=0.032U W=0.32U
+Mnmos@127 net@11 net@1331 net@1420 gnd NMOS L=0.032U W=0.32U
+Mnmos@128 net@1420 net@1316 net@817 gnd NMOS L=0.032U W=0.32U
+Mnmos@129 net@817 net@1323 net@1420 gnd NMOS L=0.032U W=0.32U
+Mnmos@130 net@804 net@1342 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@131 net@11 net@1323 net@804 gnd NMOS L=0.032U W=0.16U
+Mnmos@132 net@1572 net@1579 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@133 net@1565 net@1590 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@134 net@1667 net@1590 net@11 gnd NMOS L=0.032U W=0.32U
+Mnmos@135 net@11 net@1579 net@1667 gnd NMOS L=0.032U W=0.32U
+Mnmos@136 net@1667 net@1565 net@794 gnd NMOS L=0.032U W=0.32U
+Mnmos@137 net@794 net@1572 net@1667 gnd NMOS L=0.032U W=0.32U
+Mnmos@138 net@892 net@1590 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@139 net@11 net@1572 net@892 gnd NMOS L=0.032U W=0.16U
+Mnmos@140 net@1810 net@794 net@1797 gnd NMOS L=0.032U W=0.64U
+Mnmos@141 net@1821 net@914 net@1810 gnd NMOS L=0.032U W=0.64U
+Mnmos@142 net@1834 net@839 net@1821 gnd NMOS L=0.032U W=0.64U
+Mnmos@143 net@11 net@817 net@1834 gnd NMOS L=0.032U W=0.64U
+Mnmos@144 net@1799 net@1797 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@145 net@1962 net@1563 net@1952 gnd NMOS L=0.032U W=0.64U
+Mnmos@146 net@1969 net@914 net@1962 gnd NMOS L=0.032U W=0.64U
+Mnmos@147 net@1983 net@817 net@1969 gnd NMOS L=0.032U W=0.64U
+Mnmos@148 net@11 net@794 net@1983 gnd NMOS L=0.032U W=0.64U
+Mnmos@149 net@912 net@1952 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@150 net@2126 net@808 net@2106 gnd NMOS L=0.032U W=0.32U
+Mnmos@151 net@11 net@794 net@2126 gnd NMOS L=0.032U W=0.32U
+Mnmos@152 net@903 net@2106 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@153 net@781 net@817 net@775 gnd NMOS L=0.032U W=0.48U
+Mnmos@154 net@782 net@794 net@781 gnd NMOS L=0.032U W=0.48U
+Mnmos@155 net@11 net@772 net@782 gnd NMOS L=0.032U W=0.48U
+Mnmos@156 net@918 net@775 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@157 net@871 net@892 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@158 net@923 net@903 net@871 gnd NMOS L=0.032U W=0.16U
+Mnmos@159 net@871 net@918 net@923 gnd NMOS L=0.032U W=0.16U
+Mnmos@160 net@11 net@912 net@871 gnd NMOS L=0.032U W=0.16U
+Mnmos@161 net@927 net@871 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@162 net@2292 net@1799 net@2278 gnd NMOS L=0.032U W=0.64U
+Mnmos@163 net@2300 net@2273 net@2292 gnd NMOS L=0.032U W=0.64U
+Mnmos@164 net@2311 net@327 net@2300 gnd NMOS L=0.032U W=0.64U
+Mnmos@165 net@11 net@2270 net@2311 gnd NMOS L=0.032U W=0.64U
+Mnmos@166 net@2277 net@2278 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@167 net@2440 net@2270 net@2427 gnd NMOS L=0.032U W=0.64U
+Mnmos@168 net@2450 net@1799 net@2440 gnd NMOS L=0.032U W=0.64U
+Mnmos@169 net@2461 net@2273 net@2450 gnd NMOS L=0.032U W=0.64U
+Mnmos@170 net@11 net@2415 net@2461 gnd NMOS L=0.032U W=0.64U
+Mnmos@171 net@2426 net@2427 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@172 net@2619 net@313 net@2565 gnd NMOS L=0.032U W=0.48U
+Mnmos@173 net@2631 net@1799 net@2619 gnd NMOS L=0.032U W=0.48U
+Mnmos@174 net@11 net@2270 net@2631 gnd NMOS L=0.032U W=0.48U
+Mnmos@175 net@2598 net@2565 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@176 net@2722 net@2270 net@2696 gnd NMOS L=0.032U W=0.32U
+Mnmos@177 net@11 net@927 net@2722 gnd NMOS L=0.032U W=0.32U
+Mnmos@178 net@2726 net@2696 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@179 net@2784 net@2426 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@180 net@2786 net@2598 net@2784 gnd NMOS L=0.032U W=0.16U
+Mnmos@181 net@2784 net@2828 net@2786 gnd NMOS L=0.032U W=0.16U
+Mnmos@182 net@11 net@2726 net@2784 gnd NMOS L=0.032U W=0.16U
+Mnmos@183 net@2841 net@2784 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@184 net@3084 net@2988 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@185 net@2987 net@3164 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@186 net@3030 net@3164 net@11 gnd NMOS L=0.032U W=0.32U
+Mnmos@187 net@11 net@2988 net@3030 gnd NMOS L=0.032U W=0.32U
+Mnmos@188 net@3030 net@2987 net@3056 gnd NMOS L=0.032U W=0.32U
+Mnmos@189 net@3056 net@3084 net@3030 gnd NMOS L=0.032U W=0.32U
+Mnmos@190 net@3778 net@3164 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@191 net@11 net@3084 net@3778 gnd NMOS L=0.032U W=0.16U
+Mnmos@192 net@3232 net@3011 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@193 net@3115 net@2986 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@194 net@3069 net@2986 net@11 gnd NMOS L=0.032U W=0.32U
+Mnmos@195 net@11 net@3011 net@3069 gnd NMOS L=0.032U W=0.32U
+Mnmos@196 net@3069 net@3115 net@3131 gnd NMOS L=0.032U W=0.32U
+Mnmos@197 net@3131 net@3232 net@3069 gnd NMOS L=0.032U W=0.32U
+Mnmos@198 net@2989 net@2986 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@199 net@11 net@3232 net@2989 gnd NMOS L=0.032U W=0.16U
+Mnmos@200 net@3541 net@3548 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@201 net@3532 net@3559 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@202 net@3637 net@3559 net@11 gnd NMOS L=0.032U W=0.32U
+Mnmos@203 net@11 net@3548 net@3637 gnd NMOS L=0.032U W=0.32U
+Mnmos@204 net@3637 net@3532 net@3036 gnd NMOS L=0.032U W=0.32U
+Mnmos@205 net@3036 net@3541 net@3637 gnd NMOS L=0.032U W=0.32U
+Mnmos@206 net@3021 net@3559 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@207 net@11 net@3541 net@3021 gnd NMOS L=0.032U W=0.16U
+Mnmos@208 net@3789 net@3796 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@209 net@3782 net@3807 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@210 net@3884 net@3807 net@11 gnd NMOS L=0.032U W=0.32U
+Mnmos@211 net@11 net@3796 net@3884 gnd NMOS L=0.032U W=0.32U
+Mnmos@212 net@3884 net@3782 net@3012 gnd NMOS L=0.032U W=0.32U
+Mnmos@213 net@3012 net@3789 net@3884 gnd NMOS L=0.032U W=0.32U
+Mnmos@214 net@3108 net@3807 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@215 net@11 net@3789 net@3108 gnd NMOS L=0.032U W=0.16U
+Mnmos@216 net@4027 net@3012 net@4014 gnd NMOS L=0.032U W=0.64U
+Mnmos@217 net@4034 net@3131 net@4027 gnd NMOS L=0.032U W=0.64U
+Mnmos@218 net@4048 net@3056 net@4034 gnd NMOS L=0.032U W=0.64U
+Mnmos@219 net@11 net@3036 net@4048 gnd NMOS L=0.032U W=0.64U
+Mnmos@220 net@2270 net@4014 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@221 net@4175 net@3778 net@4166 gnd NMOS L=0.032U W=0.64U
+Mnmos@222 net@4182 net@3131 net@4175 gnd NMOS L=0.032U W=0.64U
+Mnmos@223 net@4195 net@3036 net@4182 gnd NMOS L=0.032U W=0.64U
+Mnmos@224 net@11 net@3012 net@4195 gnd NMOS L=0.032U W=0.64U
+Mnmos@225 net@3130 net@4166 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@226 net@4338 net@3027 net@4317 gnd NMOS L=0.032U W=0.32U
+Mnmos@227 net@11 net@3012 net@4338 gnd NMOS L=0.032U W=0.32U
+Mnmos@228 net@3119 net@4317 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@229 net@2998 net@3036 net@2992 gnd NMOS L=0.032U W=0.48U
+Mnmos@230 net@2999 net@3012 net@2998 gnd NMOS L=0.032U W=0.48U
+Mnmos@231 net@11 net@2989 net@2999 gnd NMOS L=0.032U W=0.48U
+Mnmos@232 net@3137 net@2992 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@233 net@3089 net@3108 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@234 net@3141 net@3119 net@3089 gnd NMOS L=0.032U W=0.16U
+Mnmos@235 net@3089 net@3137 net@3141 gnd NMOS L=0.032U W=0.16U
+Mnmos@236 net@11 net@3130 net@3089 gnd NMOS L=0.032U W=0.16U
+Mnmos@237 net@2828 net@3089 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@238 net@4551 net@2841 net@11 gnd NMOS L=0.032U W=0.16U
+Mnmos@239 net@11 net@2277 net@4551 gnd NMOS L=0.032U W=0.16U
+Mpmos@0 net@13 net@14 net@391 vdd PMOS L=0.032U W=0.32U
+Mpmos@1 net@13 net@12 net@1 vdd PMOS L=0.032U W=0.32U
+Mpmos@2 net@4001 net@14 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@3 net@751 net@12 net@4001 vdd PMOS L=0.032U W=0.64U
+Mpmos@4 net@1669 net@391 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@5 net@751 net@1 net@1669 vdd PMOS L=0.032U W=0.64U
+Mpmos@6 net@2420 net@391 net@2803 vdd PMOS L=0.032U W=0.64U
+Mpmos@7 net@2803 net@12 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@8 net@13 net@1001 net@98 vdd PMOS L=0.032U W=0.32U
+Mpmos@9 net@13 net@0 net@38 vdd PMOS L=0.032U W=0.32U
+Mpmos@10 net@5351 net@1001 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@11 net@191 net@0 net@5351 vdd PMOS L=0.032U W=0.64U
+Mpmos@12 net@324 net@98 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@13 net@191 net@38 net@324 vdd PMOS L=0.032U W=0.64U
+Mpmos@14 net@2223 net@98 net@2857 vdd PMOS L=0.032U W=0.64U
+Mpmos@15 net@2857 net@0 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@16 net@13 net@383 net@320 vdd PMOS L=0.032U W=0.32U
+Mpmos@17 net@13 net@481 net@246 vdd PMOS L=0.032U W=0.32U
+Mpmos@18 net@1340 net@383 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@19 net@542 net@481 net@1340 vdd PMOS L=0.032U W=0.64U
+Mpmos@20 net@1734 net@320 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@21 net@542 net@246 net@1734 vdd PMOS L=0.032U W=0.64U
+Mpmos@22 net@703 net@320 net@752 vdd PMOS L=0.032U W=0.64U
+Mpmos@23 net@752 net@481 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@24 net@13 net@2542 net@2495 vdd PMOS L=0.032U W=0.32U
+Mpmos@25 net@13 net@2601 net@2433 vdd PMOS L=0.032U W=0.32U
+Mpmos@26 net@3367 net@2542 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@27 net@1113 net@2601 net@3367 vdd PMOS L=0.032U W=0.64U
+Mpmos@28 net@3762 net@2495 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@29 net@1113 net@2433 net@3762 vdd PMOS L=0.032U W=0.64U
+Mpmos@30 net@3 net@2495 net@2826 vdd PMOS L=0.032U W=0.64U
+Mpmos@31 net@2826 net@2601 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@32 net@4386 net@751 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@33 net@13 net@191 net@4386 vdd PMOS L=0.032U W=0.32U
+Mpmos@34 net@4386 net@1113 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@35 net@4386 net@542 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@36 net@13 net@4386 net@2273 vdd PMOS L=0.032U W=0.32U
+Mpmos@37 net@4726 net@542 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@38 net@13 net@191 net@4726 vdd PMOS L=0.032U W=0.32U
+Mpmos@39 net@4726 net@2420 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@40 net@4726 net@1113 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@41 net@13 net@4726 net@180 vdd PMOS L=0.032U W=0.32U
+Mpmos@42 net@4863 net@1113 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@43 net@13 net@2446 net@4863 vdd PMOS L=0.032U W=0.32U
+Mpmos@44 net@13 net@4863 net@91 vdd PMOS L=0.032U W=0.32U
+Mpmos@45 net@4445 net@1113 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@46 net@4445 net@542 net@4445 vdd PMOS L=0.032U W=0.32U
+Mpmos@47 net@13 net@2223 net@4445 vdd PMOS L=0.032U W=0.32U
+Mpmos@48 net@13 net@4445 net@236 vdd PMOS L=0.032U W=0.32U
+Mpmos@49 net@5268 net@3 net@13 vdd PMOS L=0.032U W=1.28U
+Mpmos@50 net@657 net@180 net@5268 vdd PMOS L=0.032U W=1.28U
+Mpmos@51 net@25 net@91 net@657 vdd PMOS L=0.032U W=1.28U
+Mpmos@52 net@36 net@236 net@25 vdd PMOS L=0.032U W=1.28U
+Mpmos@53 net@13 net@36 net@313 vdd PMOS L=0.032U W=0.32U
+Mpmos@54 net@13 net@543 net@212 vdd PMOS L=0.032U W=0.32U
+Mpmos@55 net@13 net@131 net@623 vdd PMOS L=0.032U W=0.32U
+Mpmos@56 net@3502 net@543 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@57 net@344 net@131 net@3502 vdd PMOS L=0.032U W=0.64U
+Mpmos@58 net@5078 net@212 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@59 net@344 net@623 net@5078 vdd PMOS L=0.032U W=0.64U
+Mpmos@60 net@90 net@212 net@145 vdd PMOS L=0.032U W=0.64U
+Mpmos@61 net@145 net@131 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@62 net@13 net@8 net@5021 vdd PMOS L=0.032U W=0.32U
+Mpmos@63 net@13 net@2935 net@747 vdd PMOS L=0.032U W=0.32U
+Mpmos@64 net@5277 net@8 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@65 net@338 net@2935 net@5277 vdd PMOS L=0.032U W=0.64U
+Mpmos@66 net@4513 net@5021 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@67 net@338 net@747 net@4513 vdd PMOS L=0.032U W=0.64U
+Mpmos@68 net@726 net@5021 net@5206 vdd PMOS L=0.032U W=0.64U
+Mpmos@69 net@5206 net@2935 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@70 net@13 net@28 net@19 vdd PMOS L=0.032U W=0.32U
+Mpmos@71 net@13 net@4 net@6 vdd PMOS L=0.032U W=0.32U
+Mpmos@72 net@5441 net@28 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@73 net@7 net@4 net@5441 vdd PMOS L=0.032U W=0.64U
+Mpmos@74 net@9 net@19 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@75 net@7 net@6 net@9 vdd PMOS L=0.032U W=0.64U
+Mpmos@76 net@698 net@19 net@5376 vdd PMOS L=0.032U W=0.64U
+Mpmos@77 net@5376 net@4 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@78 net@13 net@107 net@100 vdd PMOS L=0.032U W=0.32U
+Mpmos@79 net@13 net@119 net@93 vdd PMOS L=0.032U W=0.32U
+Mpmos@80 net@214 net@107 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@81 net@126 net@119 net@214 vdd PMOS L=0.032U W=0.64U
+Mpmos@82 net@256 net@100 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@83 net@126 net@93 net@256 vdd PMOS L=0.032U W=0.64U
+Mpmos@84 net@143 net@100 net@150 vdd PMOS L=0.032U W=0.64U
+Mpmos@85 net@150 net@119 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@86 net@325 net@344 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@87 net@13 net@338 net@325 vdd PMOS L=0.032U W=0.32U
+Mpmos@88 net@325 net@126 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@89 net@325 net@7 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@90 net@13 net@325 net@327 vdd PMOS L=0.032U W=0.32U
+Mpmos@91 net@482 net@7 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@92 net@13 net@338 net@482 vdd PMOS L=0.032U W=0.32U
+Mpmos@93 net@482 net@90 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@94 net@482 net@126 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@95 net@13 net@482 net@528 vdd PMOS L=0.032U W=0.32U
+Mpmos@96 net@634 net@126 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@97 net@13 net@648 net@634 vdd PMOS L=0.032U W=0.32U
+Mpmos@98 net@13 net@634 net@656 vdd PMOS L=0.032U W=0.32U
+Mpmos@99 net@705 net@126 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@100 net@705 net@7 net@705 vdd PMOS L=0.032U W=0.32U
+Mpmos@101 net@13 net@726 net@705 vdd PMOS L=0.032U W=0.32U
+Mpmos@102 net@13 net@705 net@734 vdd PMOS L=0.032U W=0.32U
+Mpmos@103 net@3913 net@143 net@13 vdd PMOS L=0.032U W=1.28U
+Mpmos@104 net@4079 net@528 net@3913 vdd PMOS L=0.032U W=1.28U
+Mpmos@105 net@4190 net@656 net@4079 vdd PMOS L=0.032U W=1.28U
+Mpmos@106 net@3968 net@734 net@4190 vdd PMOS L=0.032U W=1.28U
+Mpmos@107 net@13 net@3968 net@2543 vdd PMOS L=0.032U W=0.32U
+Mpmos@108 net@13 net@771 net@865 vdd PMOS L=0.032U W=0.32U
+Mpmos@109 net@13 net@947 net@770 vdd PMOS L=0.032U W=0.32U
+Mpmos@110 net@826 net@771 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@111 net@839 net@947 net@826 vdd PMOS L=0.032U W=0.64U
+Mpmos@112 net@1073 net@865 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@113 net@839 net@770 net@1073 vdd PMOS L=0.032U W=0.64U
+Mpmos@114 net@1563 net@865 net@1617 vdd PMOS L=0.032U W=0.64U
+Mpmos@115 net@1617 net@947 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@116 net@13 net@793 net@1015 vdd PMOS L=0.032U W=0.32U
+Mpmos@117 net@13 net@769 net@897 vdd PMOS L=0.032U W=0.32U
+Mpmos@118 net@1274 net@793 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@119 net@914 net@769 net@1274 vdd PMOS L=0.032U W=0.64U
+Mpmos@120 net@928 net@1015 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@121 net@914 net@897 net@928 vdd PMOS L=0.032U W=0.64U
+Mpmos@122 net@772 net@1015 net@1200 vdd PMOS L=0.032U W=0.64U
+Mpmos@123 net@1200 net@769 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@124 net@13 net@1331 net@1323 vdd PMOS L=0.032U W=0.32U
+Mpmos@125 net@13 net@1342 net@1316 vdd PMOS L=0.032U W=0.32U
+Mpmos@126 net@1437 net@1331 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@127 net@817 net@1342 net@1437 vdd PMOS L=0.032U W=0.64U
+Mpmos@128 net@1482 net@1323 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@129 net@817 net@1316 net@1482 vdd PMOS L=0.032U W=0.64U
+Mpmos@130 net@804 net@1323 net@1373 vdd PMOS L=0.032U W=0.64U
+Mpmos@131 net@1373 net@1342 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@132 net@13 net@1579 net@1572 vdd PMOS L=0.032U W=0.32U
+Mpmos@133 net@13 net@1590 net@1565 vdd PMOS L=0.032U W=0.32U
+Mpmos@134 net@1686 net@1579 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@135 net@794 net@1590 net@1686 vdd PMOS L=0.032U W=0.64U
+Mpmos@136 net@1728 net@1572 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@137 net@794 net@1565 net@1728 vdd PMOS L=0.032U W=0.64U
+Mpmos@138 net@892 net@1572 net@1620 vdd PMOS L=0.032U W=0.64U
+Mpmos@139 net@1620 net@1590 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@140 net@1797 net@839 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@141 net@13 net@914 net@1797 vdd PMOS L=0.032U W=0.32U
+Mpmos@142 net@1797 net@794 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@143 net@1797 net@817 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@144 net@13 net@1797 net@1799 vdd PMOS L=0.032U W=0.32U
+Mpmos@145 net@1952 net@817 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@146 net@13 net@914 net@1952 vdd PMOS L=0.032U W=0.32U
+Mpmos@147 net@1952 net@1563 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@148 net@1952 net@794 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@149 net@13 net@1952 net@912 vdd PMOS L=0.032U W=0.32U
+Mpmos@150 net@2106 net@794 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@151 net@13 net@808 net@2106 vdd PMOS L=0.032U W=0.32U
+Mpmos@152 net@13 net@2106 net@903 vdd PMOS L=0.032U W=0.32U
+Mpmos@153 net@775 net@794 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@154 net@775 net@817 net@775 vdd PMOS L=0.032U W=0.32U
+Mpmos@155 net@13 net@772 net@775 vdd PMOS L=0.032U W=0.32U
+Mpmos@156 net@13 net@775 net@918 vdd PMOS L=0.032U W=0.32U
+Mpmos@157 net@867 net@892 net@13 vdd PMOS L=0.032U W=1.28U
+Mpmos@158 net@883 net@912 net@867 vdd PMOS L=0.032U W=1.28U
+Mpmos@159 net@895 net@903 net@883 vdd PMOS L=0.032U W=1.28U
+Mpmos@160 net@871 net@918 net@895 vdd PMOS L=0.032U W=1.28U
+Mpmos@161 net@13 net@871 net@927 vdd PMOS L=0.032U W=0.32U
+Mpmos@162 net@2278 net@327 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@163 net@13 net@2273 net@2278 vdd PMOS L=0.032U W=0.32U
+Mpmos@164 net@2278 net@1799 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@165 net@2278 net@2270 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@166 net@13 net@2278 net@2277 vdd PMOS L=0.032U W=0.32U
+Mpmos@167 net@2427 net@2273 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@168 net@13 net@1799 net@2427 vdd PMOS L=0.032U W=0.32U
+Mpmos@169 net@2427 net@2270 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@170 net@2427 net@2415 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@171 net@13 net@2427 net@2426 vdd PMOS L=0.032U W=0.32U
+Mpmos@172 net@2565 net@313 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@173 net@2565 net@1799 net@2565 vdd PMOS L=0.032U W=0.32U
+Mpmos@174 net@13 net@2270 net@2565 vdd PMOS L=0.032U W=0.32U
+Mpmos@175 net@13 net@2565 net@2598 vdd PMOS L=0.032U W=0.32U
+Mpmos@176 net@2696 net@927 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@177 net@13 net@2270 net@2696 vdd PMOS L=0.032U W=0.32U
+Mpmos@178 net@13 net@2696 net@2726 vdd PMOS L=0.032U W=0.32U
+Mpmos@179 net@2778 net@2426 net@13 vdd PMOS L=0.032U W=1.28U
+Mpmos@180 net@2790 net@2726 net@2778 vdd PMOS L=0.032U W=1.28U
+Mpmos@181 net@2811 net@2598 net@2790 vdd PMOS L=0.032U W=1.28U
+Mpmos@182 net@2784 net@2828 net@2811 vdd PMOS L=0.032U W=1.28U
+Mpmos@183 net@13 net@2784 net@2841 vdd PMOS L=0.032U W=0.32U
+Mpmos@184 net@13 net@2988 net@3084 vdd PMOS L=0.032U W=0.32U
+Mpmos@185 net@13 net@3164 net@2987 vdd PMOS L=0.032U W=0.32U
+Mpmos@186 net@3043 net@2988 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@187 net@3056 net@3164 net@3043 vdd PMOS L=0.032U W=0.64U
+Mpmos@188 net@3289 net@3084 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@189 net@3056 net@2987 net@3289 vdd PMOS L=0.032U W=0.64U
+Mpmos@190 net@3778 net@3084 net@3832 vdd PMOS L=0.032U W=0.64U
+Mpmos@191 net@3832 net@3164 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@192 net@13 net@3011 net@3232 vdd PMOS L=0.032U W=0.32U
+Mpmos@193 net@13 net@2986 net@3115 vdd PMOS L=0.032U W=0.32U
+Mpmos@194 net@3488 net@3011 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@195 net@3131 net@2986 net@3488 vdd PMOS L=0.032U W=0.64U
+Mpmos@196 net@3147 net@3232 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@197 net@3131 net@3115 net@3147 vdd PMOS L=0.032U W=0.64U
+Mpmos@198 net@2989 net@3232 net@3418 vdd PMOS L=0.032U W=0.64U
+Mpmos@199 net@3418 net@2986 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@200 net@13 net@3548 net@3541 vdd PMOS L=0.032U W=0.32U
+Mpmos@201 net@13 net@3559 net@3532 vdd PMOS L=0.032U W=0.32U
+Mpmos@202 net@3654 net@3548 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@203 net@3036 net@3559 net@3654 vdd PMOS L=0.032U W=0.64U
+Mpmos@204 net@3698 net@3541 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@205 net@3036 net@3532 net@3698 vdd PMOS L=0.032U W=0.64U
+Mpmos@206 net@3021 net@3541 net@3588 vdd PMOS L=0.032U W=0.64U
+Mpmos@207 net@3588 net@3559 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@208 net@13 net@3796 net@3789 vdd PMOS L=0.032U W=0.32U
+Mpmos@209 net@13 net@3807 net@3782 vdd PMOS L=0.032U W=0.32U
+Mpmos@210 net@3903 net@3796 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@211 net@3012 net@3807 net@3903 vdd PMOS L=0.032U W=0.64U
+Mpmos@212 net@3944 net@3789 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@213 net@3012 net@3782 net@3944 vdd PMOS L=0.032U W=0.64U
+Mpmos@214 net@3108 net@3789 net@3837 vdd PMOS L=0.032U W=0.64U
+Mpmos@215 net@3837 net@3807 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@216 net@4014 net@3056 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@217 net@13 net@3131 net@4014 vdd PMOS L=0.032U W=0.32U
+Mpmos@218 net@4014 net@3012 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@219 net@4014 net@3036 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@220 net@13 net@4014 net@2270 vdd PMOS L=0.032U W=0.32U
+Mpmos@221 net@4166 net@3036 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@222 net@13 net@3131 net@4166 vdd PMOS L=0.032U W=0.32U
+Mpmos@223 net@4166 net@3778 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@224 net@4166 net@3012 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@225 net@13 net@4166 net@3130 vdd PMOS L=0.032U W=0.32U
+Mpmos@226 net@4317 net@3012 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@227 net@13 net@3027 net@4317 vdd PMOS L=0.032U W=0.32U
+Mpmos@228 net@13 net@4317 net@3119 vdd PMOS L=0.032U W=0.32U
+Mpmos@229 net@2992 net@3012 net@13 vdd PMOS L=0.032U W=0.32U
+Mpmos@230 net@2992 net@3036 net@2992 vdd PMOS L=0.032U W=0.32U
+Mpmos@231 net@13 net@2989 net@2992 vdd PMOS L=0.032U W=0.32U
+Mpmos@232 net@13 net@2992 net@3137 vdd PMOS L=0.032U W=0.32U
+Mpmos@233 net@3086 net@3108 net@13 vdd PMOS L=0.032U W=1.28U
+Mpmos@234 net@3100 net@3130 net@3086 vdd PMOS L=0.032U W=1.28U
+Mpmos@235 net@3111 net@3119 net@3100 vdd PMOS L=0.032U W=1.28U
+Mpmos@236 net@3089 net@3137 net@3111 vdd PMOS L=0.032U W=1.28U
+Mpmos@237 net@13 net@3089 net@2828 vdd PMOS L=0.032U W=0.32U
+Mpmos@238 net@4548 net@2277 net@13 vdd PMOS L=0.032U W=0.64U
+Mpmos@239 net@4551 net@2841 net@4548 vdd PMOS L=0.032U W=0.64U
+
+* Spice Code nodes in cell cell '16BitC2{lay}'
+vdd vdd 0 DC 0.7
+* Input signals
+va0 a0 0 PWL(0ns 0.7 50ns 0.7 100ns 0 150ns 0 200ns 0 250ns 0.7 300ns 0.7 350ns 0.7 400ns 0.7 450ns 0.7 500ns 0.7)
+vb0 b0 0 PWL(0ns 0 100ns 0 150ns 0.7 200ns 0.7 250ns 0.7 300ns 0.7 350ns 0 400ns 0 450ns 0 500ns 0)
+va1 a1 0 PWL(0ns 0.7 50ns 0.7 100ns 0 150ns 0 200ns 0 250ns 0.7 300ns 0.7 350ns 0.7 400ns 0.7 450ns 0.7 500ns 0.7)
+vb1 b1 0 PWL(0ns 0 100ns 0 150ns 0.7 200ns 0.7 250ns 0.7 300ns 0.7 350ns 0 400ns 0 450ns 0 500ns 0)
+va2 a2 0 PWL(0ns 0.7 50ns 0.7 100ns 0 150ns 0 200ns 0 250ns 0.7 300ns 0.7 350ns 0.7 400ns 0.7 450ns 0.7 500ns 0.7)
+vb2 b2 0 PWL(0ns 0 100ns 0 150ns 0.7 200ns 0.7 250ns 0.7 300ns 0.7 350ns 0 400ns 0 450ns 0 500ns 0)
+va3 a3 0 PWL(0ns 0.7 50ns 0.7 100ns 0 150ns 0 200ns 0 250ns 0.7 300ns 0.7 350ns 0.7 400ns 0.7 450ns 0.7 500ns 0.7)
+vb3 b3 0 PWL(0ns 0 100ns 0 150ns 0.7 200ns 0.7 250ns 0.7 300ns 0.7 350ns 0 400ns 0 450ns 0 500ns 0)
+va4 a4 0 PWL(0ns 0.7 50ns 0.7 100ns 0 150ns 0 200ns 0 250ns 0.7 300ns 0.7 350ns 0.7 400ns 0.7 450ns 0.7 500ns 0.7)
+vb4 b4 0 PWL(0ns 0 100ns 0 150ns 0.7 200ns 0.7 250ns 0.7 300ns 0.7 350ns 0 400ns 0 450ns 0 500ns 0)
+va5 a5 0 PWL(0ns 0.7 50ns 0.7 100ns 0 150ns 0 200ns 0 250ns 0.7 300ns 0.7 350ns 0.7 400ns 0.7 450ns 0.7 500ns 0.7)
+vb5 b5 0 PWL(0ns 0 100ns 0 150ns 0.7 200ns 0.7 250ns 0.7 300ns 0.7 350ns 0 400ns 0 450ns 0 500ns 0)
+va6 a6 0 PWL(0ns 0.7 50ns 0.7 100ns 0 150ns 0 200ns 0 250ns 0.7 300ns 0.7 350ns 0.7 400ns 0.7 450ns 0.7 500ns 0.7)
+vb6 b6 0 PWL(0ns 0 100ns 0 150ns 0.7 200ns 0.7 250ns 0.7 300ns 0.7 350ns 0 400ns 0 450ns 0 500ns 0)
+va7 a7 0 PWL(0ns 0.7 50ns 0.7 100ns 0 150ns 0 200ns 0 250ns 0.7 300ns 0.7 350ns 0.7 400ns 0.7 450ns 0.7 500ns 0.7)
+vb7 b7 0 PWL(0ns 0 100ns 0 150ns 0.7 200ns 0.7 250ns 0.7 300ns 0.7 350ns 0 400ns 0 450ns 0 500ns 0)
+va8 a8 0 PWL(0ns 0.7 50ns 0.7 100ns 0 150ns 0 200ns 0 250ns 0.7 300ns 0.7 350ns 0.7 400ns 0.7 450ns 0.7 500ns 0.7)
+vb8 b8 0 PWL(0ns 0 100ns 0 150ns 0.7 200ns 0.7 250ns 0.7 300ns 0.7 350ns 0 400ns 0 450ns 0 500ns 0)
+va9 a9 0 PWL(0ns 0.7 50ns 0.7 100ns 0 150ns 0 200ns 0 250ns 0.7 300ns 0.7 350ns 0.7 400ns 0.7 450ns 0.7 500ns 0.7)
+vb9 b9 0 PWL(0ns 0 100ns 0 150ns 0.7 200ns 0.7 250ns 0.7 300ns 0.7 350ns 0 400ns 0 450ns 0 500ns 0)
+va10 a10 0 PWL(0ns 0.7 50ns 0.7 100ns 0 150ns 0 200ns 0 250ns 0.7 300ns 0.7 350ns 0.7 400ns 0.7 450ns 0.7 500ns 0.7)
+vb10 b10 0 PWL(0ns 0 100ns 0 150ns 0.7 200ns 0.7 250ns 0.7 300ns 0.7 350ns 0 400ns 0 450ns 0 500ns 0)
+va11 a11 0 PWL(0ns 0.7 50ns 0.7 100ns 0 150ns 0 200ns 0 250ns 0.7 300ns 0.7 350ns 0.7 400ns 0.7 450ns 0.7 500ns 0.7)
+vb11 b11 0 PWL(0ns 0 100ns 0 150ns 0.7 200ns 0.7 250ns 0.7 300ns 0.7 350ns 0 400ns 0 450ns 0 500ns 0)
+va12 a12 0 PWL(0ns 0.7 50ns 0.7 100ns 0 150ns 0 200ns 0 250ns 0.7 300ns 0.7 350ns 0.7 400ns 0.7 450ns 0.7 500ns 0.7)
+vb12 b12 0 PWL(0ns 0 100ns 0 150ns 0.7 200ns 0.7 250ns 0.7 300ns 0.7 350ns 0 400ns 0 450ns 0 500ns 0)
+va13 a13 0 PWL(0ns 0.7 50ns 0.7 100ns 0 150ns 0 200ns 0 250ns 0.7 300ns 0.7 350ns 0.7 400ns 0.7 450ns 0.7 500ns 0.7)
+vb13 b13 0 PWL(0ns 0 100ns 0 150ns 0.7 200ns 0.7 250ns 0.7 300ns 0.7 350ns 0 400ns 0 450ns 0 500ns 0)
+va14 a14 0 PWL(0ns 0.7 50ns 0.7 100ns 0 150ns 0 200ns 0 250ns 0.7 300ns 0.7 350ns 0.7 400ns 0.7 450ns 0.7 500ns 0.7)
+vb14 b14 0 PWL(0ns 0 100ns 0 150ns 0.7 200ns 0.7 250ns 0.7 300ns 0.7 350ns 0 400ns 0 450ns 0 500ns 0)
+va15 a15 0 PWL(0ns 0.7 50ns 0.7 100ns 0 150ns 0 200ns 0 250ns 0.7 300ns 0.7 350ns 0.7 400ns 0.7 450ns 0.7 500ns 0.7)
+vb15 b15 0 PWL(0ns 0 100ns 0 150ns 0.7 200ns 0.7 250ns 0.7 300ns 0.7 350ns 0 400ns 0 450ns 0 500ns 0)
+* Load Capacitor
+cload out 0 250fF
+* Measurements
+.measure tran avg_power AVG I(vdd) FROM=0ns TO=1us
+.measure tran peak_power MAX I(vdd) FROM=0ns TO=1us
+.meas tran PROP_DELAY TRIG V(b0) VAL=0.66 TD=1n TARG V(AeqB) VAL=0.11
+.measure vaeqb tran tf TRIG v(AeqB) VAL=0.35 FALL=0.1 TD=4ns TARG v(AeqB) VAL=0.1 FALL=0.1
+.measure vaeqbt tran tr TRIG v(AeqB) VAL=0.1 RISE=0.1 TD=4ns TARG v(AeqB) VAL=0.35 RISE=0.1
+.measure vagb tran tf TRIG v(AGTB) VAL=0.35 FALL=0.1 TD=4ns TARG v(AGTB) VAL=0.1 FALL=0.1
+.measure vagbt tran tr TRIG v(AGTB) VAL=0.1 RISE=0.1 TD=4ns TARG v(AGTB) VAL=0.35 RISE=0.1
+.measure vltb tran tf TRIG v(ALTB) VAL=0.35 FALL=0.1 TD=4ns TARG v(ALTB) VAL=0.1 FALL=0.1
+.measure vltbt tran tr TRIG v(ALTB) VAL=0.1 RISE=0.1 TD=4ns TARG v(ALTB) VAL=0.35 RISE=0.1
+* Simulation
+.tran 0 1us
+* Include model file
+.include C:\Electric\C5_models.txt
+.END

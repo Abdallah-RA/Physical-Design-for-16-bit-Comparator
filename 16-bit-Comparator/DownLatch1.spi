@@ -1,0 +1,32 @@
+*** SPICE deck for cell DownLatch1{lay} from library DownLatch-
+*** Created on Thu Aug 22, 2024 13:57:12
+*** Last revised on Thu Aug 22, 2024 13:57:26
+*** Written on Thu Aug 22, 2024 13:57:32 by Electric VLSI Design System, version 9.07
+*** Layout tech: bicmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 10.0, MIN_CAPAC 0.0FF
+*** WARNING: no power connection for P-transistor wells in cell 'DownLatch-:DownLatch1{lay}'
+*** WARNING: no ground connection for N-transistor wells in cell 'DownLatch-:DownLatch1{lay}'
+
+*** TOP LEVEL CELL: DownLatch-:DownLatch1{lay}
+Mnmos@0 net@65 net@3 net@2 gnd NMOS L=0.032U W=0.16U
+Mnmos@1 net@65 net@0 net@30 gnd NMOS L=0.032U W=0.16U
+Mnmos@2 net@65 net@30 net@39 gnd NMOS L=0.032U W=0.16U
+Mnmos@3 net@0 net@2 net@73 gnd NMOS L=0.032U W=0.16U
+Mnmos@4 net@0 net@3 net@39 gnd NMOS L=0.032U W=0.16U
+Mpmos@0 net@59 net@3 net@2 vdd PMOS L=0.032U W=0.48U
+Mpmos@1 net@59 net@0 net@30 vdd PMOS L=0.032U W=0.48U
+Mpmos@2 net@59 net@30 net@39 vdd PMOS L=0.032U W=0.48U
+Mpmos@3 net@73 net@3 net@0 vdd PMOS L=0.032U W=0.48U
+Mpmos@4 net@39 net@2 net@0 vdd PMOS L=0.032U W=0.48U
+
+* Spice Code nodes in cell cell 'DownLatch-:DownLatch1{lay}'
+Vdd vdd 0 DC 0.7
+VD D 0 PWL(0ns 0 10ns 0.7 20ns 0.7 50ns 0.7 60ns 0 70ns 0)
+Vclk clk 0 PWL(0ns 0 10ns 0 20ns 0.7 30ns 0.7 40ns 0 50ns 0 60ns 0 70ns 0.7 )
+Cload out 0 25fF
+.measure tran tf TRIG v(out) VAL=0.35 FALL=0.1 TD=8ns TARG v(out) VAL=0.1 FALL=0.1
+.measure tran tr TRIG v(out) VAL=0.1 RISE=0.1 TD=8ns TARG v(out) VAL=0.35 RISE=0.1
+.tran 0.1ns 0.1us
+.include C:\Electric\C5_models.txt
+.end
+.END

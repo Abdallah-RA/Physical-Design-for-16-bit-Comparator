@@ -1,0 +1,175 @@
+Circuit: *** SPICE deck for cell 16BitC2{lay} from library 16BitC
+
+Vb15: Removing PWL point (2e-007,0.7)
+Vb15: Removing PWL point (4e-007,0)
+Va15: Removing PWL point (1.5e-007,0)
+Va15: Removing PWL point (3e-007,0.7)
+Vb14: Removing PWL point (2e-007,0.7)
+Vb14: Removing PWL point (4e-007,0)
+Va14: Removing PWL point (1.5e-007,0)
+Va14: Removing PWL point (3e-007,0.7)
+Vb13: Removing PWL point (2e-007,0.7)
+Vb13: Removing PWL point (4e-007,0)
+Va13: Removing PWL point (1.5e-007,0)
+Va13: Removing PWL point (3e-007,0.7)
+Vb12: Removing PWL point (2e-007,0.7)
+Vb12: Removing PWL point (4e-007,0)
+Va12: Removing PWL point (1.5e-007,0)
+Va12: Removing PWL point (3e-007,0.7)
+Vb11: Removing PWL point (2e-007,0.7)
+Vb11: Removing PWL point (4e-007,0)
+Va11: Removing PWL point (1.5e-007,0)
+Va11: Removing PWL point (3e-007,0.7)
+Vb10: Removing PWL point (2e-007,0.7)
+Vb10: Removing PWL point (4e-007,0)
+Va10: Removing PWL point (1.5e-007,0)
+Va10: Removing PWL point (3e-007,0.7)
+Vb9: Removing PWL point (2e-007,0.7)
+Vb9: Removing PWL point (4e-007,0)
+Va9: Removing PWL point (1.5e-007,0)
+Va9: Removing PWL point (3e-007,0.7)
+Vb8: Removing PWL point (2e-007,0.7)
+Vb8: Removing PWL point (4e-007,0)
+Va8: Removing PWL point (1.5e-007,0)
+Va8: Removing PWL point (3e-007,0.7)
+Vb7: Removing PWL point (2e-007,0.7)
+Vb7: Removing PWL point (4e-007,0)
+Va7: Removing PWL point (1.5e-007,0)
+Va7: Removing PWL point (3e-007,0.7)
+Vb6: Removing PWL point (2e-007,0.7)
+Vb6: Removing PWL point (4e-007,0)
+Va6: Removing PWL point (1.5e-007,0)
+Va6: Removing PWL point (3e-007,0.7)
+Vb5: Removing PWL point (2e-007,0.7)
+Vb5: Removing PWL point (4e-007,0)
+Va5: Removing PWL point (1.5e-007,0)
+Va5: Removing PWL point (3e-007,0.7)
+Vb4: Removing PWL point (2e-007,0.7)
+Vb4: Removing PWL point (4e-007,0)
+Va4: Removing PWL point (1.5e-007,0)
+Va4: Removing PWL point (3e-007,0.7)
+Vb3: Removing PWL point (2e-007,0.7)
+Vb3: Removing PWL point (4e-007,0)
+Va3: Removing PWL point (1.5e-007,0)
+Va3: Removing PWL point (3e-007,0.7)
+Vb2: Removing PWL point (2e-007,0.7)
+Vb2: Removing PWL point (4e-007,0)
+Va2: Removing PWL point (1.5e-007,0)
+Va2: Removing PWL point (3e-007,0.7)
+Vb1: Removing PWL point (2e-007,0.7)
+Vb1: Removing PWL point (4e-007,0)
+Va1: Removing PWL point (1.5e-007,0)
+Va1: Removing PWL point (3e-007,0.7)
+Vb0: Removing PWL point (2e-007,0.7)
+Vb0: Removing PWL point (4e-007,0)
+Va0: Removing PWL point (1.5e-007,0)
+Va0: Removing PWL point (3e-007,0.7)
+WARNING: Node NET@14 is floating.
+WARNING: Node NET@12 is floating.
+WARNING: Node NET@1001 is floating.
+WARNING: Node NET@0 is floating.
+WARNING: Node NET@383 is floating.
+WARNING: Node NET@481 is floating.
+WARNING: Node NET@2542 is floating.
+WARNING: Node NET@2601 is floating.
+WARNING: Node NET@4615 is floating.
+WARNING: Node NET@2446 is floating.
+WARNING: Node NET@543 is floating.
+WARNING: Node NET@131 is floating.
+WARNING: Node NET@8 is floating.
+WARNING: Node NET@2935 is floating.
+WARNING: Node NET@28 is floating.
+WARNING: Node NET@4 is floating.
+WARNING: Node NET@107 is floating.
+WARNING: Node NET@119 is floating.
+WARNING: Node NET@648 is floating.
+WARNING: Node NET@771 is floating.
+WARNING: Node NET@947 is floating.
+WARNING: Node NET@793 is floating.
+WARNING: Node NET@769 is floating.
+WARNING: Node NET@1331 is floating.
+WARNING: Node NET@1342 is floating.
+WARNING: Node NET@1579 is floating.
+WARNING: Node NET@1590 is floating.
+WARNING: Node NET@808 is floating.
+WARNING: Node NET@2415 is floating.
+WARNING: Node NET@2988 is floating.
+WARNING: Node NET@3164 is floating.
+WARNING: Node NET@3011 is floating.
+WARNING: Node NET@2986 is floating.
+WARNING: Node NET@3548 is floating.
+WARNING: Node NET@3559 is floating.
+WARNING: Node NET@3796 is floating.
+WARNING: Node NET@3807 is floating.
+WARNING: Node NET@3027 is floating.
+WARNING: Node OUT is floating.
+
+WARNING: Less than two connections to node A0.  This node is used by VA0.
+WARNING: Less than two connections to node B0.  This node is used by VB0.
+WARNING: Less than two connections to node A1.  This node is used by VA1.
+WARNING: Less than two connections to node B1.  This node is used by VB1.
+WARNING: Less than two connections to node A2.  This node is used by VA2.
+WARNING: Less than two connections to node B2.  This node is used by VB2.
+WARNING: Less than two connections to node A3.  This node is used by VA3.
+WARNING: Less than two connections to node B3.  This node is used by VB3.
+WARNING: Less than two connections to node A4.  This node is used by VA4.
+WARNING: Less than two connections to node B4.  This node is used by VB4.
+WARNING: Less than two connections to node A5.  This node is used by VA5.
+WARNING: Less than two connections to node B5.  This node is used by VB5.
+WARNING: Less than two connections to node A6.  This node is used by VA6.
+WARNING: Less than two connections to node B6.  This node is used by VB6.
+WARNING: Less than two connections to node A7.  This node is used by VA7.
+WARNING: Less than two connections to node B7.  This node is used by VB7.
+WARNING: Less than two connections to node A8.  This node is used by VA8.
+WARNING: Less than two connections to node B8.  This node is used by VB8.
+WARNING: Less than two connections to node A9.  This node is used by VA9.
+WARNING: Less than two connections to node B9.  This node is used by VB9.
+WARNING: Less than two connections to node A10.  This node is used by VA10.
+WARNING: Less than two connections to node B10.  This node is used by VB10.
+WARNING: Less than two connections to node A11.  This node is used by VA11.
+WARNING: Less than two connections to node B11.  This node is used by VB11.
+WARNING: Less than two connections to node A12.  This node is used by VA12.
+WARNING: Less than two connections to node B12.  This node is used by VB12.
+WARNING: Less than two connections to node A13.  This node is used by VA13.
+WARNING: Less than two connections to node B13.  This node is used by VB13.
+WARNING: Less than two connections to node A14.  This node is used by VA14.
+WARNING: Less than two connections to node B14.  This node is used by VB14.
+WARNING: Less than two connections to node A15.  This node is used by VA15.
+WARNING: Less than two connections to node B15.  This node is used by VB15.
+WARNING: Less than two connections to node OUT.  This node is used by CLOAD.
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+Gmin = 2.52173e-012
+Gmin = 2.70769e-013
+Terminal Gmin changed to 1e-014
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 1.10907e-013
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%

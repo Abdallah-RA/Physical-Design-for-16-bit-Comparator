@@ -1,0 +1,48 @@
+*** SPICE deck for cell 1C{lay} from library 1bitComparator
+*** Created on Thu Aug 15, 2024 08:55:19
+*** Last revised on Thu Aug 22, 2024 14:19:18
+*** Written on Thu Aug 22, 2024 14:19:26 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** TOP LEVEL CELL: 1bitComparator:1C{lay}
+Mnmos@0 net@1 A gnd gnd NMOS L=0.032U W=0.16U AS=0.073P AD=0.029P PS=1.224U PD=0.72U
+Mnmos@1 net@22 B gnd gnd NMOS L=0.032U W=0.16U AS=0.073P AD=0.029P PS=1.224U PD=0.72U
+Mnmos@2 AGTB B gnd gnd NMOS L=0.032U W=0.16U AS=0.073P AD=0.036P PS=1.224U PD=0.731U
+Mnmos@3 gnd net@1 AGTB gnd NMOS L=0.032U W=0.16U AS=0.036P AD=0.073P PS=0.731U PD=1.224U
+Mnmos@4 gnd net@22 net@81 gnd NMOS L=0.032U W=0.32U AS=0.037P AD=0.073P PS=0.872U PD=1.224U
+Mnmos@5 net@83 net@1 gnd gnd NMOS L=0.032U W=0.32U AS=0.073P AD=0.037P PS=1.224U PD=0.872U
+Mnmos@6 AEQB B net@81 gnd NMOS L=0.032U W=0.32U AS=0.037P AD=0.049P PS=0.872U PD=1U
+Mnmos@7 net@83 A AEQB gnd NMOS L=0.032U W=0.32U AS=0.049P AD=0.037P PS=1U PD=0.872U
+Mpmos@0 vdd A net@1 vdd PMOS L=0.032U W=0.32U AS=0.029P AD=0.133P PS=0.72U PD=2.102U
+Mpmos@1 vdd B net@22 vdd PMOS L=0.032U W=0.32U AS=0.029P AD=0.133P PS=0.72U PD=2.102U
+Mpmos@2 AGTB net@1 net@62 vdd PMOS L=0.032U W=0.64U AS=0.026P AD=0.036P PS=0.728U PD=0.731U
+Mpmos@3 net@62 B vdd vdd PMOS L=0.032U W=0.64U AS=0.133P AD=0.026P PS=2.102U PD=0.728U
+Mpmos@4 net@117 A vdd vdd PMOS L=0.032U W=0.64U AS=0.133P AD=0.031P PS=2.102U PD=0.736U
+Mpmos@5 AEQB B net@117 vdd PMOS L=0.032U W=0.64U AS=0.031P AD=0.049P PS=0.736U PD=1U
+Mpmos@6 net@72 net@1 vdd vdd PMOS L=0.032U W=0.64U AS=0.133P AD=0.031P PS=2.102U PD=0.736U
+Mpmos@7 AEQB net@22 net@72 vdd PMOS L=0.032U W=0.64U AS=0.031P AD=0.049P PS=0.736U PD=1U
+
+* Spice Code nodes in cell cell '1bitComparator:1C{lay}'
+vdd vdd 0 DC 0.7
+* Input signals
+* Combination 00: A=0, B=0 (0ns to 100ns)
+* Combination 01: A=0, B=1 (100ns to 200ns)
+* Combination 10: A=1, B=0 (200ns to 300ns)
+* Combination 11: A=1, B=1 (300ns to 400ns)
+va a 0 PWL(0ns 0 100ns 0 200ns 0.7 300ns 0.7 400ns 0.7 500ns 0)
+vb b 0 PWL(0ns 0 100ns 0.7 200ns 0 300ns 0.7 400ns 0.7 500ns 0)
+cload out 0 250fF
+* Measurements
+.measure tran avg_power AVG I(vdd) FROM=0ns TO=1us
+.measure tran peak_power MAX I(vdd) FROM=0ns TO=1us
+.meas tran PROP_DELAY TRIG V(a) VAL=0.65 TD=20n TARG V(AGTB) VAL=0.1
+.measure vaeqb tran tf TRIG v(AEQB) VAL=0.65 FALL=0.1 TD=8ns TARG v(AEQB) VAL=0.1 FALL=0.1
+.measure vaeqbt tran tr TRIG v(AEQB) VAL=0.1 RISE=0.1 TD=50ns TARG v(AEQB) VAL=0.65 RISE=0.1
+.measure vagtb tran tf TRIG v(AGTB) VAL=0.65 FALL=0.1 TD=8ns TARG v(AGTB) VAL=0.1 FALL=0.1
+.measure vagtbt tran tr TRIG v(AGTB) VAL=0.1 RISE=0.1 TD=50ns TARG v(AGTB) VAL=0.65 RISE=0.1
+* Simulation
+.tran 0 0.5us
+* Include model file
+.include C:\Electric\C5_models.txt
+.END
